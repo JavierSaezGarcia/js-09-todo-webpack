@@ -1,10 +1,10 @@
-
+import { Todo } from "./todo.class";
 
 export class TodoList {
 
     constructor () {
-        this.cargarLocalStorage();
-        
+        this.cargarLocalStorage();      
+              
     }
     
     
@@ -28,7 +28,10 @@ export class TodoList {
                 console.log('iguales id y todo.id')
                 todo.completado = !todo.completado;
                 this.guardarLocalStorage();
+                
                 break;
+                
+            }else{
                 
             }
         }
@@ -47,7 +50,12 @@ export class TodoList {
         this.todos = (localStorage.getItem('todo')) 
             ? JSON.parse(localStorage.getItem('todo')) 
             : [];
+
+        this.todos = this.todos.map( Todo.fromJson );
+       
+
         
     }
+    
     
 }

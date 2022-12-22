@@ -17,7 +17,7 @@ npm start
 ```
 
 ## localStorage
-Para guardar en localStorage hay que pasar la instancia de la clase (todos) a un arreglo que tiene objetos dentro con 
+Para guardar en localStorage hay que pasar la instancia de la clase (todos) a un arreglo que tiene objetos dentro (arreglo de objetos) con 
 ```
 localStorage.setItem('todo', JSON.stringify(this.todos));
 ```
