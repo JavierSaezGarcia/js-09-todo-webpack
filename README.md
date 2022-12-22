@@ -1,6 +1,6 @@
-# Webpack Inicial
+# TODO webpack
 
-Este es el proyecto inicial para crear aplicaciones usando Webpack
+Aplicación de tareas con Webpack
 
 Nota: 
 Recuerden reconstruir los módulos de Node:
