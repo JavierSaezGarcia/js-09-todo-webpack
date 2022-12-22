@@ -15,6 +15,18 @@ Para arrancar el server de Webpack:
 ```
 npm start 
 ```
+
+## localStorage
+Para guardar en localStorage hay que pasar la instancia de la clase (todos) a un arreglo que tiene objetos dentro con 
+```
+localStorage.setItem('todo', JSON.stringify(this.todos));
+```
+Y para rescatarlo , recuperar la instancia por la key que hemos guardado en este caso 'todo'
+```
+JSON.parse(localStorage.getItem('todo'))
+```
+
+
 ## Github pages
 #
 1. Si no has hecho la build, crearla:
