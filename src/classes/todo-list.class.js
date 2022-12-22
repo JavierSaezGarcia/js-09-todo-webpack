@@ -11,7 +11,7 @@ export class TodoList {
     }
     eliminarTodo( id ){
         //TODO eliminar el objeto de esta id
-        this.todos = this.todos.filter( todo => todo.id !== Number(id))
+        this.todos = this.todos.filter( todo => todo.id !== Number(id));
     }
     marcarCompletado( id ){
         //TODO marcar si esta completado
@@ -25,8 +25,9 @@ export class TodoList {
         }
 
     }
-    eliminarCompletado() {
+    eliminarCompletados() {
         //TODO eliminar los que tengan todo=true
-    }
+        this.todos = this.todos.filter( todo => !todo.completado );
+            }
     
 }
