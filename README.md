@@ -35,10 +35,6 @@ git push
 7. Seleccionar folder/docs
 8. Click save... y esperar
 Nota: el nombre del repo sería el que corresponda la cuenta
-```
-Your site is live at https://javiersaezgarcia.github.io/js-08-webpack-inicial/
-Last deployed by @JavierSaezGarcia JavierSaezGarcia 1 minute ago
-```
 9. Click en visit site
 10. Enjoy
 
